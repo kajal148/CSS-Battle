@@ -1,0 +1,19 @@
+<div></div>
+<style>
+  *{
+    padding:0;
+    margin:0;
+    box-sizing:box-border;
+  }
+  body{
+    background-color:#5d3a3a;
+    display:flex;
+    align-items:start;
+    justify-items:start;
+  }
+  div{
+    width:200px;
+    height:200px;
+    background-color:#b5e0ba;
+  }
+</style>
