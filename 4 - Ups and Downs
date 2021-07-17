@@ -1,0 +1,30 @@
+<div class="col"></div>
+<div class="col"></div>
+<div class="col"></div>
+<style>
+  * {
+    background: #62306D;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    position: absolute;
+    border-radius: 0 0 50px 50px;
+  }
+  .col:nth-child(1) {
+    top: 50px;
+    left: 150px;
+    transform: rotate(180deg);
+  }
+  
+  .col:nth-child(2) {
+    top: 150px;
+    left: 50px;
+ }
+  .col:nth-child(3) {
+     top: 150px;
+    left: 250px;
+ }
+
+</style>
